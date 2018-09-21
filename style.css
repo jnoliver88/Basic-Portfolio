@@ -1,0 +1,107 @@
+
+body {
+    background-image: url(assets/images/what-the-hex.png);
+    border-color: #dddddd;
+    background-color: #ffffff;
+    width: 960px;
+}
+
+ #myheader {
+   background-color: #4aaaa5;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #ffffff;
+   width: 250px;
+   padding: 0px;
+}
+
+.secondhead {
+    font-size: 20px;
+
+}
+
+#left {
+    float: right;
+    width: 100px;
+    text-align: center
+}
+
+#middle {
+    float: right;
+    width: 100px;
+    text-align: center
+}
+
+#right {
+    float: right;
+    width: 100px;
+    text-align: center;
+}
+
+
+#bio_image {
+    float: left;
+    margin: 5px;
+}
+#main_bio {
+  float: left;
+  width: 600px;
+  padding: 5px;
+  line-height: 30px;   
+}
+
+.foot {
+    clear: both;
+    bottom: 0px;
+    position: fixed;
+    text-align: center;
+    background-color: #666666;
+    width: 100%;
+    padding: 10px;
+    font-size: 10px;
+    color: #dddddd;
+}
+
+/*contact style css*/
+
+.fields {
+    color: #777777;
+    font-size: 15px;
+    padding: 0px;
+}
+
+.input {
+    border-style: solid;
+    border-color: #777777;
+    border-width: 1px;
+    color: #666666;
+    font-size: 15px;
+    padding: 5px;
+}
+
+#messagebox {
+    border-style: solid;
+    border-color: #777777;
+    border-width: 1px;
+    height: 200px;
+}
+
+#subbutton {
+    background-color: #4aaaa5;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    width: 40px;
+    margin-top: 5px;
+}
+
+/*portfolio style css*/
+
+.box1 {
+    border-style: solid;
+    border-width: 1px;
+    margin-top:  30px;
+    padding: 25px;
+    width: 20%;
+    height: 20%;
+    text-align: center;
+}
